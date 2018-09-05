@@ -19,9 +19,9 @@ public class Program {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 	WebElement element =driver.findElement(By.name("email"));
-	element.sendKeys("ranjith.kumar03@gnmail.com");
+	element.sendKeys("xxxxxxxx@gnmail.com");
 	element =driver.findElement(By.name("pass"));
-	element.sendKeys("adiranjith1980");
+	element.sendKeys("xxxxxxxxxxxx");
 	element =driver.findElement(By.id("loginbutton"));
 	element.click();
 	
